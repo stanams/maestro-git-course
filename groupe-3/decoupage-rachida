@@ -1,0 +1,5 @@
+je me connecte afin d'acceder à mon compte = login et mdp - mes identifiants existent dans la base 
+je m'authentifie pour recevoir mon code = mon numero est dans la base et match avec mes identifiants
+je reçois mon code sur mon telephone = envoi code via sms 
+je renseigne mon code reçu = envoi confirmation et matching code envoyé et reçu 
+Je renseigne mon navigateur comme étant sûre = envoi confirmation et dépot cookie navigateur
