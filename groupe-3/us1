@@ -1,16 +1,20 @@
-En tant que...
-Je veux...
-Afin de...
+En tant que utilisateur
+Je veux renseigner mes identifiants déjà enregistrés
+Afin de pouvoir me connecter
 
-===============================
-
+===========================
 Critères d'acceptances:
 #1
-GIVEN
-WHEN
-THEN
+GIVEN : login, mot de passe & N° de téléphone mentionné dans le profil
+WHEN : je me connecte
+THEN : confirmation affichage page de réception code
 
 #2
-GIVEN
-WHEN
-THEN
+GIVEN : N° de téléphone enregistré dans le profil
+WHEN : l'utilisateur se connecte
+THEN :confirmation affichage recevoir page de code de vérification
+
+#3
+GIVEN : si cookie non présent dans le navigateur  
+WHEN : l'utilisateur se connecte
+THEN : affichage page recevoir code de vérification

@@ -1,16 +1,17 @@
-En tant que...
-Je veux...
-Afin de...
+En tant que user qui est sur le parcours 2fa et qui a reçu le sms
+Je veux saisir sur l'interface web le code reçu par SMS et le vérifier
+Afin de finaliser le parcours 2fa
 
 ===============================
 
 Critères d'acceptances:
 #1
-GIVEN
-WHEN
-THEN
+GIVEN le code à 6 chiffres est envoyé par sms 
+WHEN user saisit le code à 6 chiffres par sms et que la vérif est bonne 
+THEN la page pour se fier à ce navigateur s'affiche et l'utilisateur est bien logged
 
 #2
-GIVEN
-WHEN
-THEN
+GIVEN le code à 6 chiffres est envoyé par sms 
+WHEN user saisit le code à 6 chiffres par sms et que la vérif est pas bonne 
+THEN l'utilisateur reste sur la page de saisie et un message d'erreur s'affiche 
+AND le message d'erreur qui dit " Le code entré n'est pas valide, cliquez pour un nouvel envoi du code"
