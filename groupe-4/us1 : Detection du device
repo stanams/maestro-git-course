@@ -2,13 +2,10 @@ En tant qu’utilisateur déjà inscrit sur leboncoin et qui n'est pas loggé,
 Je veux que le site leboncoin.com détecte quand je me connecte depuis un navigateur qui n'est pas encore enregistré
 Afin de vérifier s’il n’y a pas usurpation de mon identité 
 
+============================================================
 Critère d’acceptance : 
-#1
+
 Etant donné que j’ai rentré mes bons identifiants de compte (email password)
 Quand je me connecte sur un nouveau device
 Ça fait apparaître la page code de vérification qui permet de demander un code 
-#2
-Etant donné que je n’ai pas rentré les bons identifiants
-quand je me connecte depuis un nouveau device 
-Ça ne fait pas apparaître la page de code de vérification
-Ça fait un ligne rouge d’erreur
+
