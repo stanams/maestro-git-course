@@ -1,0 +1,50 @@
+US1 : authentification nouveau navigateur
+En tant que user déjà enregistré
+Je veux me connecter via un nouveau navigateur 
+Afin d'accéder à mes données
+
+Given Je suis un user déjà inscrit sur le bon coin qui se connecte via un nouveau navigateur 
+When je clique sur le CTA "me connecter"
+Then je passe à l'étape 2 du parcours d'authentification
+
+Given Je suis un user déjà inscrit sur le bon coin qui se me connecte via un navigateur déjà connu
+When  je clique sur le CTA "me connecter"
+Then j'accède directement à mon compte sans étape supplémentaire
+
+--
+
+US2 : authentification 2FA 
+
+En tant que user qui vient de rentrer sur la page de 2FA,
+je veux accéder à une page avec 1 bouton “Recevoir un code de vérification”
+afin de recevoir mon deuxième facteur d’authentification.
+
+Given Je suis un user déjà inscrit sur le LBC et j'ai renseigné un numéro dans mon compte
+When je clique sur me connecter 
+Then une page avec mon numéro de téléphone s'affiche et le CTA "recevoir un code de vérification"
+
+Given Je suis un user déjà inscrit sur le LBC et je n'ai pas renseigné un numéro dans mon compte,
+When je clique sur me connecter 
+Then une autre page d'authentification par mail s'affiche
+
+--
+
+US3 : authentification étape 2 code SMS
+En tant que user qui a cliqué sur "recevoir un code de vérification"
+Je veux recevoir un code unique de vérification à 6 chiffres par SMS sur le numéro de téléphone indiqué à l’étape 2 du parcours d’identification valable 10 min 
+Afin de confirmer mon authentification 
+
+Given 
+When
+Then
+
+--
+US4 : authentification étape 3  code SMS
+En tant que contributeur
+Je veux pouvoir renseigner le code à 6 chiffres reçu par SMS sur un nouvel écran 
+Afin de confirmer mon authentification
+
+US5 : étape 4 simplication connexion
+En tant que contributeur
+je veux pouvoir accéder à un nouvel écran si mon code de vérification de l'étape 3 a été validé 
+Afin de ne plus avoir besoin de recevoir et d’indiquer un nouveau code d’accès par SMS lors de mes prochaines connexions

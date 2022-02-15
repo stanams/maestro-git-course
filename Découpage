@@ -1,0 +1,39 @@
+US1 : En tant que user déjà inscrit sur le bon coin et qui n'est pas encore loggé,
+je veux me connecter via un nouveau navigateur qui n'est pas dans la liste des groupes de confiance, 
+afin d'accéder à mon compte.
+
+Critères d'acceptance : 
+test 1 : Etant donné que je suis un user déjà inscrit, 
+quand je me connecte via un nouveau navigateur qui n'est pas dans la liste des groupes de confiance, 
+alors une nouvelle page s'affiche (maquette 2FA)
+
+Test 2 : 
+Etant donné que je suis un user déjà inscrit, 
+quand je me connecte via un navigateur déjà connu, 
+alors j'accède directement à mon compte sans étape supplémentaire.
+
+US2 : En tant que user qui vient d'entrer sur la page 2FA,
+je veux accéder à une page avec 1 bouton “Recevoir un code de vérification”
+afin de recevoir mon 2ème facteur d’authentification.
+
+Critères d'acceptance : 
+Test 1 :Je suis un user déjà inscrit sur LBC et j’ai renseigné un numéro de téléphone dans Mon Compte
+quand je clique sur “Me connecter”
+alors je vois une page avec mon numéro de téléphone crypté et le bouton “Recevoir un code de vérification”
+Test 2 : Je suis un user déjà inscrit sur LBC et je n’ai pas renseigné un numéro de téléphone dans Mon Compte
+quand je clique sur “Me connecter”
+alors je vois une page de 2FA par mail
+
+
+US 3 : En tant que user qui a cliqué sur "recevoir un code de vérification"
+Je veux recevoir un code unique de vérification à 6 chiffres par SMS d'une validité de 10 minutes sur le numéro de téléphone indiqué à l’étape 2 du parcours d’identification
+Afin de confirmer mon authentification
+Critères d'acceptance : 
+test 1 : 
+test 2 : 
+
+US 4 : En tant que user connecté, je vais avoir le choix entre "sauvegarder mes credentials sur ce navigateur"  ou non afin de conserver 
+
+Critères d'acceptance : 
+test 1 : 
+test 2 : 
