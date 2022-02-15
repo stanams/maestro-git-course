@@ -1,16 +1,12 @@
-En tant que...
-Je veux...
-Afin de...
+En tant qu'utilisateur qui a démarré un parcours de connexion avec un code de vérification (2 facteurs),
+Je veux recevoir un code de vérification par sms, 
+Afin de sécuriser ma connexion.
 
 ===============================
 
 Critères d'acceptances:
 #1
-GIVEN
-WHEN
-THEN
+GIVEN un utilisateur qui démarre un parcours de connexion 2 facteurs,
+WHEN quand il clique sur le bouton "recevoir mon code",
+THEN il reçoit un code à 6 chiffres par sms >2 minutes
 
-#2
-GIVEN
-WHEN
-THEN

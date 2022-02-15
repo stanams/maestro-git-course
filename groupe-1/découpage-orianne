@@ -1,0 +1,5 @@
+US#1 Ajout d'une pop up après la connexion classique pour recevoir un code de vérification
+US#2 Envoi d'un sms avec un numéro généré aléatoirement composé de 6 chiffres = "code vérif"
+US#3 Affichage d'une pop up pour comparer la saisie avec le code vérif
+US#4 Affichage d'une pop up pour enregistrer le navigateur lorsque le parcours de connexion est sécurisé
+US#5 Erreurs d'envoi du sms

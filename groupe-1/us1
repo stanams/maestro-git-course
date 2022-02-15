@@ -1,16 +1,13 @@
-En tant que...
-Je veux...
-Afin de...
+En tant qu'utilisateur qui démarrer un parcours de connexion à partir d'un nouveau device et qui a renseigné un numéro de téléphone dans son profil, 
+Je veux pouvoir recevoir un code de vérification, 
+Afin de sécuriser ma connexion.
 
 ===============================
 
 Critères d'acceptances:
 #1
-GIVEN
-WHEN
-THEN
+GIVEN un utilisateur qui démarre un parcours de connexion classique, 
+WHEN il clique sur "je me connecte",
+THEN une pop up s'affiche (voir maquette 2FA)
 
-#2
-GIVEN
-WHEN
-THEN
+
