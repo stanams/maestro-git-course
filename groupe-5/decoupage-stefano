@@ -1,0 +1,19 @@
+US 1 : Connexion/Identification utilisateur
+-> Utilisateur saisi ses identifiants
+  -> Verification des identifiants
+    -> Si utilisateur non existe
+      -> Affichage du message Utilisatuer non reconnu
+    -> Si utilisatuer existe
+      -> Verification si navigateur est present dans la liste de navigateurs de confiance
+       -> Si Oui, pas de code de verification
+       -> Si Non, Affichage message Envoie du code de validation 
+
+US 2 : Recevoir un Code de validation
+ -> Verification numero de telephone
+ 	-> Si non reinsegné
+		-> Champ libre 
+ 	-> Si reinsegné
+ 		-> Champ prerempli
+Envoie du Code de Validation
+
+US 3 : Ajouter un navigateur de confiance
