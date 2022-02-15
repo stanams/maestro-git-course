@@ -1,16 +1,15 @@
-En tant que...
-Je veux...
-Afin de...
+En tant qu'utilisateur qui a choisi la fonction double factuer de securisation
+Je veux recevoir un code utilisateur
+Afin de naviguer en toute sécurité sur un nouveau navigateur
 
 ===============================
-
 Critères d'acceptances:
 #1
-GIVEN
-WHEN
-THEN
+GIVEN : navigateur non connu - device non connu
+WHEN : je me connecte
+THEN : double authentification
 
 #2
-GIVEN
-WHEN
-THEN
+GIVEN : dernière connexion supérieure à 30 jours
+WHEN : je me connecte
+THEN : double authentification
