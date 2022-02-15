@@ -1,16 +1,18 @@
-En tant que qu'utilisateur ayant reçu un code de vérification par sms 
-Je veux accéder à un écran pour valider mon code de vérifcication 
-Afin d'accéder à mon code
+En tant qu'utilisateur ayant reçu un code de vérification par sms,
+Je veux accéder à un écran pour valider mon code de vérification,
+Afin de finaliser la connexion sécurisée à mon compte.
 
 ===============================
 
 Critères d'acceptances:
 #1
-GIVEN Etant donnée un utilisateur ayant reçu un code de vérifcation  
-WHEN il sasit un autre code de vérification que celui qu'il a reçu par sms 
-THEN La saisie s'efface et l'encadré devient rouge 
+GIVEN un utilisateur qui saisit 6 chiffres,
+WHEN le 6e chiffre est saisi,
+THEN se lance la comparaison entre la saisie et le code de vérification.
 
 #2
-GIVEN
-WHEN
-THEN
+GIVEN Etant donné un utilisateur ayant reçu un code de vérifcation  
+WHEN il saisit un autre code de vérification que celui qu'il a reçu par sms, 
+THEN La saisie s'efface et un message d'erreur en rouge s'affiche.
+
+
