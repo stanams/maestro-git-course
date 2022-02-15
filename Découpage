@@ -1,0 +1,51 @@
+Epic : Authenfication à 2 facteurs 
+
+Step 1
+
+En tant qu’user se connectant et ayant déjà un compte, je veux renseigner mon identité afin d’accèder à mon compte le bon coin.
+
+Call to action : Click sur button se connecter 
+
+Back end : on va chercher dans la table des users enregistrés : id + password crypté 
+
+Request : get id 
+
+Request : get password 
+
+Step 2 
+
+Le serveur va créer un code de vérification généré par un algorythme 
+
+Back end va get le téléphone de l’id dans la table 
+
+Réception automatique sans call to action dès renseignement de la donnée id_tel 
+
+Step 2 bis 
+
+Envoi code avec script du text du sms sur tél renseigné 
+
+Get : script automatique du text 
+
+Get : code algo code ou random number ?
+
+Fusion des 2 infos 
+
+Création et envoi du sms : utilisation du réseau externe 
+
+Step 3 
+
+le user renseigne le code dans la nouvelle fenêtre 
+
+recherche nouvelle fenetre dans table du front end 
+
+Pas de bouton calltoaction : automatisation  + reconnaissance code du envoyé 
+
+qui a été renseigné
+
+Step 4
+
+le user va avoir le choix entre sauvegarder ses credentials sur ce navigateur  ou non 
+
+C’est d’office sur le choix “sauvegarder”
+
+nouvelle fenêtre frontend “simplifier votre connexion”
