@@ -31,9 +31,14 @@ Then une autre page d'authentification par mail s'affiche
 
 US3 : authentification étape 2 code SMS
 En tant que user qui a cliqué sur "recevoir un code de vérification"
-Je veux recevoir un code unique de vérification à 6 chiffres par SMS sur le numéro de téléphone indiqué à l’étape 2 du parcours d’identification
+Je veux recevoir un code unique de vérification à 6 chiffres par SMS sur le numéro de téléphone indiqué à l’étape 2 du parcours d’identification valable 10 min 
 Afin de confirmer mon authentification 
 
+Given 
+When
+Then
+
+--
 US4 : authentification étape 3  code SMS
 En tant que contributeur
 Je veux pouvoir renseigner le code à 6 chiffres reçu par SMS sur un nouvel écran 
