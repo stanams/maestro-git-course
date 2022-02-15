@@ -1,1 +1,4 @@
-
+US1 - Détecter un nouveau device de connexion
+US2 - Recevoir un code vérification
+US3 - Connexion avec le nouveau code
+US4 - Déclarer un navigateur de confiance
