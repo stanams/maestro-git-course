@@ -1,0 +1,24 @@
+Authentification : 
+2 grandes étapes : 
+**1er facteur  :** 
+US1 : Connexion par mail
+US 2 : Mot de passe oublié
+**2eme facteur :** 
+US 3 : demande de Code de vérification + rentrer le code
+Temps d’attente ? 
+Si message reçu 
+Si message non reçu
+US 4 Envoi + reception du message
+US 5 : Simplifier la connexion
+Enregistrer le mot de passe
+
+ou
+
+**1er facteur  :** 
+US1 : Connexion par mail 
+Si ça fonctionne / si mot de passe oublié
+**2eme facteur :** 
+US 2 : Implémenter Authentification par sms : demande de Code de vérification + envoi code + entré code
+Et cas si l’envoi code ne fonctionne pas ?
+US 3 : Simplifier la connexion
+Enregistrer le mot de passe
