@@ -1,16 +1,16 @@
-En tant que...
-Je veux...
-Afin de...
+En tant qu'utilisateur déjà connecté
+Je veux que le site le bon coin détecte que le navigateur est nouveau
+Afin de vérifier qu'il n'y a pas d'ursurpation d'identité
 
 ===============================
 
 Critères d'acceptances:
 #1
-GIVEN
-WHEN
-THEN
+GIVEN j'ai entré mes bons identifiants de compte le boncoin
+WHEN je me connecte sur un nouveau device/navigateur
+THEN ça déclenche une pop-up code de vérification
 
 #2
-GIVEN
-WHEN
-THEN
+GIVEN je n'ai pas rentrer les bons identifiants
+WHEN quand je clique sur connecter depuis un nouveau device
+THEN la fênetre de code de vérification n'apparaît pas
