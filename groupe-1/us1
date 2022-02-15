@@ -1,5 +1,5 @@
 En tant qu'utilisateur qui démarrer un parcours de connexion à partir d'un nouveau device et qui a renseigné un numéro de téléphone dans son profil, 
-Je veux pouvoir recevoir un code de vérification par sms, 
+Je veux pouvoir recevoir un code de vérification, 
 Afin de sécuriser ma connexion.
 
 ===============================
