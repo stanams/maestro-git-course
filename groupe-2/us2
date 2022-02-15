@@ -1,16 +1,27 @@
-En tant que...
-Je veux...
-Afin de...
+En tant qu'utilisateur loggué
+Je veux entrer le code de vérification reçu
+Afin de sécuriser ma connexion
 
 ===============================
 
 Critères d'acceptances:
+
 #1
-GIVEN
-WHEN
-THEN
+GIVEN user has received a verification code
+WHEN wrong code is entered
+THEN error message is displayed
 
 #2
-GIVEN
-WHEN
-THEN
+GIVEN user has received a verification code
+WHEN right code is entered
+THEN code is automatically validated
+
+#3
+Given je suis sur mobile iOS
+When je reçois un SMS
+Then j'ai une option d'autocomplétion du code
+
+#4
+Given je suis sur mobile Android
+When je reçois un SMS
+Then j'ai une option d'autocomplétion du code
