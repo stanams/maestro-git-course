@@ -1,8 +1,16 @@
-US1 : En tant que user enregistré via un nouveau navigateur, je veux me connecter afin d'accéder à mes données.
+US1 : En tant que user enregistré via un nouveau navigateur, 
+je veux me connecter 
+afin d'accéder à mes données.
 
 Critères d'acceptance : 
-test 1 : Etant donné que je suis un user enregistré, quand je me connecte via un nouveau navigateur, alors une nouvelle page s'affiche
-Test 2 : Etant donné que je suis un user enregistré, quand je me connecte via un navigateur déjà connu, alors j'accède directement à mon compte sans étape supplémentaire.
+test 1 : Etant donné que je suis un user enregistré, 
+quand je me connecte via un nouveau navigateur, 
+alors une nouvelle page s'affiche
+
+Test 2 : 
+Etant donné que je suis un user enregistré, 
+quand je me connecte via un navigateur déjà connu, 
+alors j'accède directement à mon compte sans étape supplémentaire.
 
 US2 : En tant que user connecté, je dois cliquer sur le bouton "recevoir le code de vérification" afin de vérifier mon identité.
 
