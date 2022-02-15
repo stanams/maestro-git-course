@@ -1,0 +1,40 @@
+En tant qu’utilisateur déjà inscrit sur leboncoin et qui n'est pas loggé, 
+Je veux que le site leboncoin.com détecte quand je me connecte depuis un navigateur qui n'est pas encore enregistré
+Afin de vérifier s’il n’y a pas usurpation de mon identité 
+
+Critère d’acceptance : 
+#1
+Etant donné que j’ai rentré mes bons identifiants de compte (email password)
+Quand je me connecte sur un nouveau device
+Ça fait apparaître la page code de vérification qui permet de demander un code 
+#2
+Etant donné que je n’ai pas rentré les bons identifiants
+quand je me connecte depuis un nouveau device 
+Ça ne fait pas apparaître la page de code de vérification
+Ça fait un ligne rouge d’erreur
+
+
+US2 :  Affichage du téléphone par défaut
+En tant que utilisateur ayant validé mon 1er facteur d’identification
+Je veux que mon numéro de téléphone s’affiche par défaut en codé
+Afin de vérifier que je vais recevoir le code sur le bon numéro
+Etant donné que je me suis authentifiée avec mon 1er facteur
+Quand la page de code de vérification apparaît
+Je vois le bon numéro s’afficher 
+
+US3 : Envoi code de sécurité par sms
+En tant qu’utilisateur ayant validé mon 1er facteur d’identification
+Je veux recevoir un code de sécurité par sms sur mon numéro de téléphone (après avoir cliqué sur recevoir un code de vérification) 
+Afin de finaliser mon identification à double facteur
+
+Etant donné que mon numéro correspond au numéro qui apparaît
+Quand je clique sur recevoir un code de vérification
+Je reçois un sms de LBC : “code 6 chiffres” est votre code de vérification leboncoin
+Et la page et pour finir s’affiche sur le device
+
+US4 : Rentrer le code
+En tant qu’utilisateur ayant reçu le sms avec le code de sécurité
+Je veux pouvoir entrer mon code de sécurité
+Afin de finaliser mon identification à 2 facteurs
+
+Etant donné que
