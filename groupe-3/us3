@@ -1,16 +1,16 @@
-En tant que...
-Je veux...
-Afin de...
+En tant que user 
+Je veux saisir le code reçu par SMS 
+Afin de me connecter 
 
 ===============================
 
 Critères d'acceptances:
 #1
-GIVEN
-WHEN
-THEN
+GIVEN le code à 6 chiffres est envoyé par sms dans un délai 3 minutes 
+WHEN user reçoit le code à 6 chiffres par sms
+THEN la page d'envoi du code se charge dans une nouvelle page pour saisir le code reçu 
 
 #2
-GIVEN
-WHEN
-THEN
+GIVEN le code à 6 chiffres est envoyé par sms dans un délai de 3 minutes   
+WHEN  user reçoit le code à 6 chiffres par sms à entrer dans un délai de 10 minutes
+THEN la page d'envoi du code se charge dans une nouvelle page sécurisée pour saisir le code reçu 
