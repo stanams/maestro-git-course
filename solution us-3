@@ -1,0 +1,18 @@
+US3
+
+ETQU qui a bien validé mon code
+Je veux pouvoir choisir si je retiens ce navigateur ou pas
+Afin de ne pas avoir à nnouveau ce parcours fastidieux sur mes prochaines connexions avec ce navigateur
+
+------------------------------------------
+ACCEPTANCE TESTS
+
+GIVEN j'ai réussi à valider mon code
+WHEN je click sur "Retenir mon navigateur"
+THEN je suis redirigé sur la home page en tant qu'utilisateur loggué
+AND si je reessaye de me login sur ce navigateur, alors je n'ai pas de parcours 2FA
+
+GIVEN j'ai réussi à valider mon code
+WHEN je click sur "Plus tard"
+THEN je suis redirigé sur la home page en tant qu'utilisateur loggué
+AND si je reessaye de me login sur ce navigateur, alors je repasse par le parcours 2FA
