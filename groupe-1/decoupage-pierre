@@ -1,0 +1,20 @@
+TEST TEST TEST TEST TEST TEST TEST TEST TEST
+- US 1
+    
+    En tant qu’utilisateur sur l’écran de login (email/mdp), je veux voir un écran m’expliquant qu’une double authentification est en progrès avec le numéro de téléphone associé à mon profil.
+    
+- US 2
+    
+    En tant qu’utilisateur dans la double authentification, un SMS est envoyé avec un code aléatoire sur 6 chiffres au numéro de mobile associé à mon profil.
+    Il peut être important de vérifier les règles de validation du numéro de mobile lors de la création du profil : il doit être obligatoire, au bon format E164.
+    En cas d’échec d’envoi du SMS l’information doit être relayée à l’utilisateur, lui demandant potentiellement de réessayer.
+    
+- US 3
+    
+    En tant qu’utilisateur dans la double authentification, je peux valider mon code à 6 chiffres pour être loggé.
+    Si le numéro entré par l’utilisateur est erroné, un autre essai d’envoi de code a lieu pour un maximum de 3 essais. Au bout de 3 essais l’utilisateur a un message d’erreur l’invitant à contacter le support client, et son compte est suspendu.
+    
+- US 4
+    
+    En tant qu’utilisateur ayant passé la double authentification, je peux simplifier mes futures connexions depuis ce navigateur. Un choix oui/non m’est proposé pour ce faire. Si j’accepte, les futures connexions depuis ce navigateur ne passeront plus par la double authentification.
+    Cette authentification de device expire au bout de 3 mois quelle que soit l’activité de l’utilisateur, c’est à dire que l’utilisateur repasse par une procédure 2FA, avec le choix de promouvoir à nouveau ce navigateur.
