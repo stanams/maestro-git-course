@@ -15,3 +15,13 @@ THEN error message is displayed
 GIVEN user has received a verification code
 WHEN right code is entered
 THEN code is automatically validated
+
+#3
+Given je suis sur mobile iOS
+When je reçois un SMS
+Then j'ai une option d'autocomplétion du code
+
+#4
+Given je suis sur mobile Android
+When je reçois un SMS
+Then j'ai une option d'autocomplétion du code
