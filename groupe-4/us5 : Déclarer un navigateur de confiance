@@ -1,0 +1,16 @@
+En tant qu'utilisateur authentifié à deux facteurs
+Je souhaite déclarer le nouveau navigateur comme navigateur de confiance
+Afin de ne plus passer par une authentification à deux facteurs et de simplifier une prochaine connexion
+
+===============================
+
+Critères d'acceptances:
+#1
+GIVEN
+WHEN
+THEN
+
+#2
+GIVEN
+WHEN
+THEN
