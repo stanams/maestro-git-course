@@ -1,16 +1,21 @@
-En tant que...
-Je veux...
-Afin de...
+En tant qu'utilisateur
+Je veux rentrer mon id et MPD
+Afin d'accèder au bon coin
 
 ===============================
 
 Critères d'acceptances:
 #1
-GIVEN
-WHEN
-THEN
+Given un utilisateur renseigne son id et mdp
+When il clique sur "se connecter"
+Then un pop up lui demande "recevoir un code de connection"
 
 #2
-GIVEN
-WHEN
-THEN
+Given l'utilisateur est reconnu et le numéro de téléphone existe dans la BDD
+When il clique sur "se connecter"
+Then une page lui demande "recevoir un code de connection"
+
+#3
+Given le cookie d'authenfication est non présent sur le navigateur 
+When il clique sur "se connecter"
+Then une page lui demande "recevoir un code de connection"
