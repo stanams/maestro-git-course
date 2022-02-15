@@ -1,16 +1,17 @@
-En tant que...
-Je veux...
-Afin de...
+En tant que user qui vient de rentrer sur la page de 2FA,
+je veux accéder à une page avec 1 bouton "Recevoir un code de vérification"
+afin de recevoir mon 2ème facteur d'authentification.
 
 ===============================
 
 Critères d'acceptances:
 #1
-GIVEN
-WHEN
-THEN
+Je suis un user déjà inscrit sur LBC et j'ai renseigné un numéro de téléphone dans Mon Compte
+quand je clique sur "Me connecter"
+alors je vois une page avec mon numéro de téléphone crypté et le bouton "Recevoir un code de vérification"
 
 #2
-GIVEN
-WHEN
-THEN
+Je suis un user déjà inscrit sur LBC et je n'ai pas renseigné un numéro de téléphone dans Mon Compte
+quand je clique sur "Me connecter"
+alors je vois une page de 2FA par mail
+
