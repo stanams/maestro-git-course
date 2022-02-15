@@ -1,0 +1,10 @@
+En tant qu'utilisateur, je veux pouvoir écrire mon mail et mdp afin d'accéder à mon compte 
+GIVEN un champ pour l'email 
+AND un champ pour le mdp non visible avec un cache 
+AND user peut voir son mdp en cliquant sur le cache 
+Then user peut cliquer le call to action se connecter 
+
+En tant que user je souhaite vérifier mon compte afin d'accéder à mon compte en toute sécurité 
+GIVEN un call to action pour recevoir confidentiel sur mon tel enregistré 
+WHEN user clique sur le call to action 
+THEN il reçoit un code sur son tel 
