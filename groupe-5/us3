@@ -6,6 +6,8 @@ afin de confirmer mon authentification.
 
 Critères d'acceptances:
 #1
-
+Le user est sur la page Code de vérification
+Quand il clique sur le bouton "Recevoir mon code de vérification"
+Il reçoit un SMS avec un code unique à 6 chiffres valable 10 minutes
 
 #2
