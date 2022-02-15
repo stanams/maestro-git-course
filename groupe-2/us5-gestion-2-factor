@@ -9,14 +9,19 @@ Critères d'acceptances :
 1#
 Given je suis notifié d'une nouvelle connection
 When je suspecte une connection suspecte
-Then je veux signaler une connection suspecte
+Then je veux signaler une connection suspecte via la notification
 
 2#
 Given je suis notifié d'une nouvelle connection
 When je suspecte une connection suspecte
-Then les informations liées aux accédants à mon compte sont consultables
+Then les informations de l'accédant sont visibles dans la notification
 
 3#
 Given je suis notifié d'une nouvelle connection
 When je suspecte une connection suspecte
-Then je veux pouvoir logout les accédants à mon compte 
+Then je veux pouvoir logout les accédants via un page d'account manager
+
+4#
+Given je suis loggué
+When je veux mettre à jour mes paramètres d'accès
+Then je veux pouvoir accéder à une page d'account manager
