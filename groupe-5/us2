@@ -3,9 +3,12 @@ je veux accéder à une page avec 1 bouton “Recevoir un code de vérification�
 afin de recevoir mon 2ème facteur d’authentification.
 
 Critères d'acceptance : 
-Test 1 :Je suis un user déjà inscrit sur LBC et j’ai renseigné un numéro de téléphone dans Mon Compte
+Test 1 :
+Je suis un user déjà inscrit sur LBC et j’ai renseigné un numéro de téléphone dans Mon Compte
 quand je clique sur “Me connecter”
 alors je vois une page avec mon numéro de téléphone crypté et le bouton “Recevoir un code de vérification”
-Test 2 : Je suis un user déjà inscrit sur LBC et je n’ai pas renseigné un numéro de téléphone dans Mon Compte
+
+Test 2 : 
+Je suis un user déjà inscrit sur LBC et je n’ai pas renseigné un numéro de téléphone dans Mon Compte
 quand je clique sur “Me connecter”
 alors je vois une page de 2FA par mail
