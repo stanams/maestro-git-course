@@ -1,13 +1,13 @@
-En tant que...
-Je veux...
-Afin de...
+En tant que utilisateur 
+Je veux authentifier mon navigateur 
+Afin de ne plus resaisir mes infos et refaire le processus d'authentification 
 
 ===============================
 
 Critères d'acceptances:
 #1
-GIVEN
-WHEN
+GIVEN un pop up qui proose l'authentification du navigateur 
+WHEN 
 THEN
 
 #2
