@@ -1,16 +1,11 @@
-En tant que...
-Je veux...
-Afin de...
+En tant que user qui a cliqué sur le bouton “Recevoir mon code de vérification”,
+je reçois un code de vérification unique à 6 chiffres, par SMS, d'une validité de 10 minutes, sur le numéro que j'ai renseigné dans mon compte
+afin de confirmer mon authentification.
 
 ===============================
 
 Critères d'acceptances:
 #1
-GIVEN
-WHEN
-THEN
+
 
 #2
-GIVEN
-WHEN
-THEN
