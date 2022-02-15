@@ -1,12 +1,14 @@
-En tant qu'utilisateur ayant activé les options 2-factor
-Je souhaite être informé des tentatives de connection
-Afin de sécuriser mon compte
+En tant qu'utilisateur ayant déja éffectué un parcours 2fa.
+Je souhaite recevoir email m'informant de tentatives de connexions.
+Afin d'anticiper des utilisations frauduleuses de mon compte.
 
 ===============================
 
 Critères d'acceptances:
 
 #1
-Given un navigateur de confiance est enregistré
+Given un utilisateur ayant déja fait un parcours 2fa
 When quelqu'un tente de se connecter à mon compte sur un navigateur non enregistré
-Then je suis notifié d'une tentative de connection correspondant au settings de notifications de l'utilisateur 
+Then je suis notifié d'une tentative de connexion par email détaillant les informations: Adresse IP publique, type de navigateur, localisation géographique et date/heure
+
+
