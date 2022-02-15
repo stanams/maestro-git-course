@@ -1,16 +1,16 @@
-En tant que...
-Je veux...
-Afin de...
+En tant que user déjà enregistré,
+Je veux me connecter via un nouveau navigateur 
+Afin d’accéder à mon compte.
 
 ===============================
 
 Critères d'acceptances:
 #1
-GIVEN
-WHEN
-THEN
+Je suis un user déjà inscrit qui se connecte avec un nouveau navigateur
+Quand je clique sur le bouton “Me connecter”
+Une nouvelle page s’affiche.
 
 #2
-GIVEN
-WHEN
-THEN
+Si je suis un user déjà inscrit qui se connecte avec un navigateur de confiance
+Quand je clique sur le bouton “Me connecter”
+J’accède directement à mon compte.
