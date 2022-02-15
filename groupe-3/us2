@@ -1,16 +1,16 @@
-En tant que...
-Je veux...
-Afin de...
+En tant qu'utilisateur 
+Je veux recevoir un code d'authentification 
+Afin de me connecter en toute sécurité sur un nouveau navigateur
 
 ===============================
 
 Critères d'acceptances:
 #1
-GIVEN
-WHEN
-THEN
+GIVEN navigateur non connu 
+WHEN je me connecte
+THEN double authentification 
 
 #2
-GIVEN
-WHEN
-THEN
+GIVEN derniere connexion suppérieur à 30 jours
+WHEN je me connecte 
+THEN double authentification
