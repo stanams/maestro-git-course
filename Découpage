@@ -1,0 +1,31 @@
+US1 : En tant que user déjà inscrit sur le bon coin et qui n'est pas encore loggé,
+je veux me connecter via un nouveau navigateur qui n'est pas dans la liste des groupes de confiance, 
+afin d'accéder à mon compte.
+
+Critères d'acceptance : 
+test 1 : Etant donné que je suis un user déjà inscrit, 
+quand je me connecte via un nouveau navigateur qui n'est pas dans la liste des groupes de confiance, 
+alors une nouvelle page s'affiche (maquette 2FA)
+
+Test 2 : 
+Etant donné que je suis un user déjà inscrit, 
+quand je me connecte via un navigateur déjà connu, 
+alors j'accède directement à mon compte sans étape supplémentaire.
+
+US2 : En tant que user connecté, je dois cliquer sur le bouton "recevoir le code de vérification" afin de vérifier mon identité.
+
+Critères d'acceptance : 
+test 1 : given je suis un user connecté, when 
+
+
+US 3 : En tant que user connecté, je dois renseigner le code reçu sur mon téléphone portable afin d'accéder à mon compte.
+
+Critères d'acceptance : 
+test 1 : 
+test 2 : 
+
+US 4 : En tant que user connecté, je vais avoir le choix entre "sauvegarder mes credentials sur ce navigateur"  ou non afin de conserver 
+
+Critères d'acceptance : 
+test 1 : 
+test 2 : 
