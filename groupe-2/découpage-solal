@@ -1,0 +1,76 @@
+US1 - Implementation 2-factor dans connection actuelle
+---
+
+En tant qu'inscrit à leboncoin
+Je veux me connecter
+Afin de faire de faire des emplettes et vendre mes vieilleries
+
+---
+
+Given je suis sur ma login page
+When j'entre mes credentials correctement et je valide
+Then la fenêtre du 2-factor auth s'ouvre
+
+Given je suis sur ma login page
+When je me plante sur mon mail ou mon mdp
+Then un message d'erreur apparaît
+
+Given je suis sur ma login page
+When j'entre mes credentials correctement et je valide, ET mon nav est déjà enregistré par la 2-factor auth
+Then je suis connecté
+
+
+======================
+
+
+US2 - Gestion 2-factor
+
+---
+
+En tant qu'inscrit à leboncoin face à la 2-factor auth
+Je clique sur recevoir un SMS
+Afin de recevoir un code
+
+---
+
+Given je suis sur web
+When je reçois un SMS
+Then je l'entre manuellement
+
+Given je suis sur mobile iOS
+When je reçois un SMS
+Then j'ai une option d'autocomplétion du code
+
+Given je suis sur mobile Android
+When je reçois un SMS
+Then j'ai une option d'autocomplétion du code
+
+Given je ne reçois pas de SMS
+When je devais recevoir un SMS
+Then je dois avoir un bouton "je n'ai pas reçu de SMS"
+
+Given je ne reçois pas de SMS
+When je clique sur "je n'ai pas reçu de SMS"
+Then je veux pouvoir recevoir un code par mail
+
+
+======================
+
+
+US3 - Sécurisation 2-factor
+
+---
+
+En tant qu'inscrit à leboncoin ayant activé la 2-factor-auth
+Je veux pouvoir manager les accès 2-factor
+Afin de sécuriser mon compte
+
+___
+
+Given il y'a une nouvelle connection sur un nav inconnu
+When c'est peut-être pas moi
+Then je veux une notif
+
+Given je suspecte une connection suspecte
+When il se passe des choses louches
+Then je veux avoir une page me permettant de consulter et supprimer des nav enregistrés
