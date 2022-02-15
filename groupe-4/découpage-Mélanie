@@ -1,0 +1,10 @@
+US 1 / Clic sur “se connecter” → la page code de vérification apparaît : 
+logo vérifié, 
+- texte, encadré avec le numéro de téléphone renseigné sur le compte de l’utilisateur (format numéro de téléphone +33/les chiffres du numéro de téléphone sont codés à part les deux derniers) 
+et le bouton “recevoir un code de vérification”
+
+US 2 / Clic sur “recevoir un code de vérification” → envoi d’un SMS à l’utilisateur avec un code à 6 chiffres : API Aircall ou autre (destinataire Leboncoin) 
+
+US 3 / Après envoi du SMS → la page “Et pour finir” apparaît : texte + encadré à 6 chiffres 
+
+US 4 / Si chiffres renseignés = chiffres envoyés par SMS à l'utilisateur → la page “Simplifier votre connexion” apparaît avec du texte et le bouton “se fier à ce navigateur” et “plus tard” 
