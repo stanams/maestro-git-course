@@ -9,3 +9,7 @@ Etant donné que j’ai rentré mes bons identifiants de compte (email password)
 Quand je me connecte sur un nouveau device
 Ça fait apparaître la page code de vérification qui permet de demander un code 
 
+Etant donné que j’ai rentré mes bons identifiants de compte (email password)
+Quand je clique sur "me connecter"
+Je veux voir apparaitre mon numéro de téléphone en codé (format +33 6 XX XX XX (dernier chiffre numéro de téléphone))
+
