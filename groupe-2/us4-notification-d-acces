@@ -9,4 +9,4 @@ Critères d'acceptances:
 #1
 Given un navigateur de confiance est enregistré
 When quelqu'un tente de se connecter à mon compte sur un navigateur non enregistré
-Then je suis notifié d'une tentative de connection
+Then je suis notifié d'une tentative de connection correspondant au settings de notifications de l'utilisateur 
