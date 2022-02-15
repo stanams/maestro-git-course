@@ -1,0 +1,20 @@
+US1
+
+ETQU qui a réalisé mon login à partir d’un autre navigateur ou d’un navigateur privé
+Je veux voir apparaître une page me demandant d’envoyer un code SMS
+Afin de valider mon authentification 2 facteurs et me garantir la sécurité de mon compte
+
+-----------------------------
+ACCEPTANCE TESTS
+
+GIVEN je suis sur la page d’envoie du code SMS
+WHEN je clique sur le bouton envoyer le code et que tout se passe bien
+THEN je vois s’afficher un message de confirmation d’envoie et je reçois un SMS
+
+GIVEN je suis sur la page d’envoie du code SMS
+WHEN je clique sur le bouton envoyer le code et qu’il y a un problème
+THEN je vois s’afficher un message d’erreur m’invitant à rappuyer sur le CTA d’envoi et je ne reçois pas de SMS
+
+GIVEN je suis sur la page d’envoie du code SMS
+WHEN je clique sur le bouton envoyer le code (problème ou pas)
+THEN je fais partir un hit de tracking indiquant le succès ou l'erreur de cette action
