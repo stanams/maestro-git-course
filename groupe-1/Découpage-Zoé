@@ -1,0 +1,21 @@
+1. 
+En tant qu'utilisateur déconnecté 
+Je souhaite pouvoir me connecter au site web 
+Afin que je puisse acceder à mon compte 
+
+2. 
+En tant qu'utilisateur déconnecté 
+Je souhaite indiqué mon numéro de télphone 
+Afin de recevoir mon code d'indentifaction 
+
+3.En tant qu'utilisateur déconnecté 
+Je souhaite recevoir mon code d'identifaction par sms 
+Afin de valider mon identité sur le site internet 
+
+4.En tant qu'utilisateur déconnecté 
+Je souhaite rentrer mon code d'intification 
+Afin d'accéder à mon compte 
+
+5.En tant qu'utilisateur connecté 
+JE souhaite enregister mes informations 
+afin de ne pas devoir rentrer à nouveau mes informations à ma prochaine connection 
