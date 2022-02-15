@@ -1,0 +1,5 @@
+As a user, I want to authentificate myself to login on Leboncoin.fr
+As a logged user, I want to trigger the sending of a verification number on my smartphone to doublecheck my account
+As a logged user, I want to receive the verification number on my smartphone to doublecheck my account
+As a logged user, I want to enter my verification number on leboncoin.fr to doublecheck my account
+As a logged & checked user account, I want to skip the doublecheck part to quickly log in next time
