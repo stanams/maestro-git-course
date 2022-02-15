@@ -1,16 +1,16 @@
-En tant que...
-Je veux...
-Afin de...
+En tant qu'utilisateur qui vient de cliquer sur "je me connecte" à partir d'un nouveau device et qui a renseigné un numéro de téléphone dans son profil, 
+Je veux pouvoir recevoir un code à 6 chiffres par sms, 
+Afin de compléter un parcours de connexion à deux facteurs.
 
 ===============================
 
 Critères d'acceptances:
 #1
-GIVEN
-WHEN
-THEN
+GIVEN l'utilisateur se connecte
+WHEN le numéro de téléphone est appelé du profil,
+THEN il est affiché seulement si il comporte le format "+33x xx xx xx xx" 
 
 #2
-GIVEN
-WHEN
-THEN
+GIVEN l'utilisateur se connecte
+WHEN quand il clique sur le bouton "recevoir mon code"
+THEN il reçoit un code à 6 chiffres par sms >2 minutes
