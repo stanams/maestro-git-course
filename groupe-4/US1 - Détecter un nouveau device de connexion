@@ -1,6 +1,6 @@
-En tant que système d'authentification du le boncoin.com
-Je souhaite détecter qu'un utilisateur ayant un compte se connecte depuis un nouveau device
-Afin de lui demander si c'est bien lui
+En tant que système d'authentification du site le boncoin.com
+Je souhaite détecter quand un utilisateur déjà inscrit se connecte depuis un nouveau "device"
+Afin de vérifier si il n'y a pas une usurpation d'identité
 
 ===============================
 
