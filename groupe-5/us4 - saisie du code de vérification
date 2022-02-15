@@ -1,0 +1,16 @@
+En tant que user qui est sur le parcours de 2FA et qui a reçu un conde de vérification par SMS
+Je veux saisir le code reçu dans l'interface web et le vérifier
+Afin de me connecter.
+
+===============================
+
+Critères d'acceptances:
+#1
+GIVEN
+WHEN
+THEN
+
+#2
+GIVEN
+WHEN
+THEN
