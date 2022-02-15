@@ -1,18 +1,10 @@
-Epic : Authenfication à 2 facteurs 
+US1 : En tant que user enregistré via un nouveau navigateur, je veux me connecter afin d'accéder à mes données.
 
-Step 1
+Critères d'acceptance : 
+test 1 : Etant donné que je suis un user enregistré, quand je me connecte via un nouveau navigateur, alors une nouvelle page s'affiche
+Test 2 : Etant donné que je suis un user enregistré, quand je me connecte via un navigateur déjà connu, alors je 
 
-En tant qu’user se connectant et ayant déjà un compte, je veux renseigner mon identité afin d’accèder à mon compte le bon coin.
-
-Call to action : Click sur button se connecter 
-
-Back end : on va chercher dans la table des users enregistrés : id + password crypté 
-
-Request : get id 
-
-Request : get password 
-
-Step 2 
+US2 : En tant que user connecté, je dois vérifier qu'il s'agit de mon numéro de téléphone qui s'affiche. 
 
 Le serveur va créer un code de vérification généré par un algorythme 
 
