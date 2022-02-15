@@ -1,6 +1,6 @@
-En tant qu'utilisateur du site le boncoin.com
-Je veux pouvoir accéder à mon compte depuis un nouveau "device"
-Afin de ...
+En tant que système d'authentification du le boncoin.com
+Je souhaite détecter qu'un utilisateur ayant un compte se connecte depuis un nouveau device
+Afin de lui demander si c'est bien lui
 
 ===============================
 
