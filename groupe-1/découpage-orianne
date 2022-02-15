@@ -1,5 +1,5 @@
-US#1 Lorsque l'utilisateur se connecte sur un nouveau device et qu'il a renseigné un numéro de téléphone dans son profil, une pop up apparait et affiche son numéro de téléphone avec un bouton "recevoir mon code"
-US#2 Lorsque l'utilisateur clique sur le bouton "recevoir mon code", il reçoie un sms avec un numéro généré aléatoirement composé de 6 chiffres, "code vérif"
-US#3 Lorsque le sms a été envoyé, une pop up apparait et affiche 6 cases de saisie de chiffres. La dernière case valide la saisie et lance la comparaison entre le code vérif et la saisie. Si =, voir US#4, si ≠ , voir US#5
-US#4 Lorsque la saisie est validée identique au code vérif, une pop apparait et affiche deux boutons pour sauvegarder ou non la vérification sur le navigateur
-US#5 Lorsque la saisie n'est pas identique au code vérif, la saisie est effacée et les bordures des cases deviennent rouge, un message d'erreur est affiché
+US#1 Ajout d'une pop up après la connexion classique pour recevoir un code de vérification
+US#2 Envoi d'un sms avec un numéro généré aléatoirement composé de 6 chiffres = "code vérif"
+US#3 Affichage d'une pop up pour comparer la saisie avec le code vérif
+US#4 Affichage d'une pop up pour enregistrer le navigateur lorsque le parcours de connexion est sécurisé
+US#5 Erreurs d'envoi du sms
