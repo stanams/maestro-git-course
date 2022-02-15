@@ -1,16 +1,22 @@
-En tant que...
-Je veux...
-Afin de...
+En tant qu'utilisateur 
+Je veux pouvoir gérer les accès et paramètres 2-factor
+Afin de sécuriser mon compte
 
 ===============================
 
-Critères d'acceptances:
-#1
-GIVEN
-WHEN
-THEN
+Critères d'acceptances :
 
-#2
-GIVEN
-WHEN
-THEN
+1#
+Given je suis notifié d'une nouvelle connection
+When je suspecte une connection suspecte
+Then je veux signaler une connection suspecte
+
+2#
+Given je suis notifié d'une nouvelle connection
+When je suspecte une connection suspecte
+Then les informations liées aux accédants à mon compte sont consultables
+
+3#
+Given je suis notifié d'une nouvelle connection
+When je suspecte une connection suspecte
+Then je veux pouvoir logout les accédants à mon compte 
