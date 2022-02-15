@@ -13,7 +13,7 @@ Then j'accède directement à mon compte sans étape supplémentaire
 
 --
 
-US2 : 
+US2 : authentification 2FA 
 
 En tant que user qui vient de rentrer sur la page de 2FA,
 je veux accéder à une page avec 1 bouton “Recevoir un code de vérification”
@@ -29,13 +29,8 @@ Then une autre page d'authentification par mail s'affiche
 
 --
 
-US2 : authentification étape 2 code SMS 
-En tant que contributeur 
-Je veux pouvoir entrer mon numéro de téléphone sur un nouvel écran
-Afin de recevoir un code de vérification par SMS et pouvoir confirmer mon identité
-
 US3 : authentification étape 2 code SMS
-En tant que contributeur
+En tant que user qui a cliqué sur "recevoir un code de vérification"
 Je veux recevoir un code unique de vérification à 6 chiffres par SMS sur le numéro de téléphone indiqué à l’étape 2 du parcours d’identification
 Afin de confirmer mon authentification 
 
