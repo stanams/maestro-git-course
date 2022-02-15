@@ -1,16 +1,17 @@
-En tant que user 
-Je veux saisir le code reçu par SMS 
-Afin de me connecter 
+En tant que user qui est sur le parcours 2fa et qui a reçu le sms
+Je veux saisir sur l'interface web le code reçu par SMS et le vérifier
+Afin de finaliser le parcours 2fa
 
 ===============================
 
 Critères d'acceptances:
 #1
-GIVEN le code à 6 chiffres est envoyé par sms dans un délai 3 minutes 
-WHEN user reçoit le code à 6 chiffres par sms
-THEN la page d'envoi du code se charge dans une nouvelle page pour saisir le code reçu 
+GIVEN le code à 6 chiffres est envoyé par sms 
+WHEN user saisit le code à 6 chiffres par sms et que la vérif est bonne 
+THEN la page pour se fier à ce navigateur s'affiche et l'utilisateur est bien logged
 
 #2
-GIVEN le code à 6 chiffres est envoyé par sms dans un délai de 3 minutes   
-WHEN  user reçoit le code à 6 chiffres par sms à entrer dans un délai de 10 minutes
-THEN la page d'envoi du code se charge dans une nouvelle page sécurisée pour saisir le code reçu 
+GIVEN le code à 6 chiffres est envoyé par sms 
+WHEN user saisit le code à 6 chiffres par sms et que la vérif est pas bonne 
+THEN l'utilisateur reste sur la page de saisie et un message d'erreur s'affiche 
+AND le message d'erreur qui dit " Le code entré n'est pas valide, cliquez pour un nouvel envoi du code"
