@@ -2,42 +2,22 @@ US1 : En tant que user enregistré via un nouveau navigateur, je veux me connect
 
 Critères d'acceptance : 
 test 1 : Etant donné que je suis un user enregistré, quand je me connecte via un nouveau navigateur, alors une nouvelle page s'affiche
-Test 2 : Etant donné que je suis un user enregistré, quand je me connecte via un navigateur déjà connu, alors je 
+Test 2 : Etant donné que je suis un user enregistré, quand je me connecte via un navigateur déjà connu, alors j'accède directement à mon compte sans étape supplémentaire.
 
-US2 : En tant que user connecté, je dois vérifier qu'il s'agit de mon numéro de téléphone qui s'affiche. 
+US2 : En tant que user connecté, je dois cliquer sur le bouton "recevoir le code de vérification" afin de vérifier mon identité.
 
-Le serveur va créer un code de vérification généré par un algorythme 
+Critères d'acceptance : 
+test 1 : given je suis un user connecté, when 
 
-Back end va get le téléphone de l’id dans la table 
 
-Réception automatique sans call to action dès renseignement de la donnée id_tel 
+US 3 : En tant que user connecté, je dois renseigner le code reçu sur mon téléphone portable afin d'accéder à mon compte.
 
-Step 2 bis 
+Critères d'acceptance : 
+test 1 : 
+test 2 : 
 
-Envoi code avec script du text du sms sur tél renseigné 
+US 4 : En tant que user connecté, je vais avoir le choix entre "sauvegarder mes credentials sur ce navigateur"  ou non afin de conserver 
 
-Get : script automatique du text 
-
-Get : code algo code ou random number ?
-
-Fusion des 2 infos 
-
-Création et envoi du sms : utilisation du réseau externe 
-
-Step 3 
-
-le user renseigne le code dans la nouvelle fenêtre 
-
-recherche nouvelle fenetre dans table du front end 
-
-Pas de bouton calltoaction : automatisation  + reconnaissance code du envoyé 
-
-qui a été renseigné
-
-Step 4
-
-le user va avoir le choix entre sauvegarder ses credentials sur ce navigateur  ou non 
-
-C’est d’office sur le choix “sauvegarder”
-
-nouvelle fenêtre frontend “simplifier votre connexion”
+Critères d'acceptance : 
+test 1 : 
+test 2 : 
