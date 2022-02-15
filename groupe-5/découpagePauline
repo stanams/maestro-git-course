@@ -1,7 +1,22 @@
-US1 : authentification étape 1 mail 
-En tant que contributeur déjà inscrit
-Je veux pouvoir indiquer mon mail et mon mot de passe sur un premier écran
-Afin de pouvoir m’identifier et accéder à mon compte
+US1 : authentification nouveau navigateur
+En tant que user déjà enregistré
+Je veux me connecter via un nouveau navigateur 
+Afin d'accéder à mes données
+
+Given Je suis un user déjà inscrit qui se connecte via un nouveau navigateur 
+When je clique sur le CTA "me connecter"
+Then je passe à l'étape 2 du parcours d'authentification
+
+Given Je suis un user déjà inscrit qui se me connecte via un navigateur déjà connu
+When  je clique sur le CTA "me connecter"
+Then j'accède directement à mon compte sans étape supplémentaire
+
+--
+
+US1 : authentification étape 1 
+En tant que contributeur déjà inscrit qui se connecte via un nouveau navigateur
+Je veux recevoir un code de vérification
+Afin de pouvoir confirmer mon identité 
 
 US2 : authentification étape 2 code SMS 
 En tant que contributeur 
