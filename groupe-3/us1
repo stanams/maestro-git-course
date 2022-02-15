@@ -1,16 +1,21 @@
-En tant que...
-Je veux...
-Afin de...
+En tant que user 
+Je veux renseigner mes identifiants mail et mdp préablement enregistrés
+Afin de pouvoir me connecter 
 
 ===============================
 
 Critères d'acceptances:
 #1
-GIVEN
-WHEN
-THEN
+GIVEN un champ enregistré 
+WHEN le user entre son mail et mdp 
+THEN il clique sur me connecter 
 
 #2
-GIVEN
-WHEN
-THEN
+GIVEN un numéro de tel enregistré dans son compte 
+WHEN il clique sur me connecter 
+THEN il recoit le pop up pour recevoir un code de vérification 
+
+#3
+GIVEN vérifier si le navigateur est fiable  
+WHEN quand le user se connecte 
+THEN il se connecte directement à son compte 
