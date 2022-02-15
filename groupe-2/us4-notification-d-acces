@@ -1,0 +1,12 @@
+En tant qu'utilisateur ayant activé les options 2-factor
+Je souhaite être informé des tentatives de connection
+Afin de sécuriser mon compte
+
+===============================
+
+Critères d'acceptances:
+
+#1
+Given un navigateur de confiance est enregistré
+When quelqu'un tente de se connecter à mon compte sur un navigateur non enregistré
+Then je suis notifié d'une tentative de connection
