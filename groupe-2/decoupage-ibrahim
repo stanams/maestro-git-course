@@ -1,0 +1,23 @@
+En tant que utilisateur déjà crée sur la plate-forme je souhaite accéder à mon compte de manière sécurisée.
+
+
+Envoi  du code 
+Affichage de l’interface pour saisir le code
+Matching du code envoyé vs le code saisie
+
+
+GIVEN Utilisateur
+WHEN Utilisateur saisie login/mdp valide
+THEN Une pop UP s’affiche lui affichant son numéro de  téléphone et demande d’envoi du code
+
+GIVEN Utilisateur
+WHEN Utilisateur valide numéro de téléphone
+THEN L’utilisateur reçoit le code sur son téléphone
+
+
+
+ 
+
+
+
+En tant qu’utilisateur deja crée sur le bon coin je souhaite pouvoir définir un point d’accés sécurisé
