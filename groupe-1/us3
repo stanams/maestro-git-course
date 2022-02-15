@@ -1,5 +1,5 @@
-En tant qu'utilisateur ayant reçu un code de vérification par sms,
-Je veux accéder à un écran pour valider mon code de vérification,
+En tant qu'utilisateur qui est entré sur le parcours de connexion 2FA et a reçu un code de vérification par sms,
+Je veux accéder à un écran pour saisir et valider mon code de vérification,
 Afin de finaliser la connexion sécurisée à mon compte.
 
 ===============================
@@ -12,7 +12,15 @@ THEN se lance la comparaison entre la saisie et le code de vérification.
 
 #2
 GIVEN Etant donné un utilisateur ayant reçu un code de vérifcation  
+WHEN il saisit un code de vérification identique à celui qu'il a reçu par sms, 
+THEN une page statique s'affiche et l'utilisateur est connecté. (voir maquette - 2FA validation navigateur)
+
+#3
+GIVEN Etant donné un utilisateur ayant reçu un code de vérifcation  
 WHEN il saisit un autre code de vérification que celui qu'il a reçu par sms, 
-THEN La saisie s'efface et un message d'erreur en rouge s'affiche.
+THEN L'utilisateur reste sur la page de saisie du code, la saisie s'efface et un message d'erreur en rouge s'affiche. (voir maquette - 2FA saisie)
 
-
+#4
+GIVEN un utilisateur ayant reçu un code de vérifcation  
+WHEN il saisit des lettres,
+THEN La saisie s'efface et un message d'erreur en rouge s'affiche.  (voir maquette - 2FA saisie)
