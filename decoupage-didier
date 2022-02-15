@@ -1,0 +1,4 @@
+En tant qu'utilisateur je veux renseigner mon nom et mot de passe afin d'accéder au site le bon coin
+En tant qu'utilisateur je veux que le bon coin m'envoie un code par SMS afin d'authentifier ma connection
+En tant qu'utilisateur je veux saisir sur l'interface le code reçu pas SMS afin d'authentifier ma connection
+En tant qu'utilisateur je veux pouvoir identifier mon navigateur afin de ne plus avoir à m'authentifier par I2F par la suite 
