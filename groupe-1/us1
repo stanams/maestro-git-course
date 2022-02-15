@@ -1,16 +1,13 @@
-En tant qu'utilisateur qui vient de cliquer sur "je me connecte" à partir d'un nouveau device et qui a renseigné un numéro de téléphone dans son profil, 
-Je veux pouvoir recevoir un code à 6 chiffres par sms, 
-Afin de compléter un parcours de connexion à deux facteurs.
+En tant qu'utilisateur qui démarrer un parcours de connexion à partir d'un nouveau device et qui a renseigné un numéro de téléphone dans son profil, 
+Je veux pouvoir recevoir un code de vérification par sms, 
+Afin de sécuriser ma connexion.
 
 ===============================
 
 Critères d'acceptances:
 #1
-GIVEN l'utilisateur se connecte
-WHEN le numéro de téléphone est appelé du profil,
-THEN il est affiché seulement si il comporte le format "+33x xx xx xx xx" 
+GIVEN un utilisateur qui démarre un parcours de connexion classique, 
+WHEN il clique sur "je me connecte",
+THEN une pop up s'affiche avec son numéro de téléphone (masqué) et un bouton d'action "recevoir mon code de vérification"
 
-#2
-GIVEN l'utilisateur se connecte
-WHEN quand il clique sur le bouton "recevoir mon code"
-THEN il reçoit un code à 6 chiffres par sms >2 minutes
+
