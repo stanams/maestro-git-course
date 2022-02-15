@@ -8,6 +8,6 @@ Critères d'acceptances:
 #1
 GIVEN un utilisateur qui démarre un parcours de connexion classique, 
 WHEN il clique sur "je me connecte",
-THEN une pop up s'affiche avec son numéro de téléphone (masqué) et un bouton d'action "recevoir mon code de vérification"
+THEN une pop up s'affiche (voir maquette 2FA)
 
 
