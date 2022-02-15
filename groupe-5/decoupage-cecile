@@ -1,0 +1,4 @@
+1. En tant que user qui a cliqué sur “se connecter” après avoir saisi son identifiant et son mdp, je veux voir une page qui me permet de cliquer sur “Recevoir un code de vérification” afin de pouvoir me connecter au site LBC.
+2. En tant que user qui a cliqué sur “Recevoir mon code de vérification”, je veux recevoir un code de vérification à 6 chiffres par SMS afin de le saisir dans le champ correspondant.
+3. En tant que user qui a cliqué sur “Recevoir mon code de vérification”, je veux voir une page qui me permet de saisir le code de vérification à 6 chiffres que j’ai reçu afin de finaliser ma connexion.
+4. En tant que user qui a renseigné son code de vérification, je veux avoir un écran qui me propose de simplifier ma prochaine connexion au navigateur que je viens d’utiliser afin de ne plus avoir à saisir mon code de vérification lors de mes prochaines connexions.
