@@ -1,16 +1,16 @@
-En tant que...
-Je veux...
-Afin de...
+En tant que utilisateur 
+Je veux saisir le code que j'ai reçu par sms
+Afin de me connecter 
 
 ===============================
 
 Critères d'acceptances:
 #1
-GIVEN
-WHEN
-THEN
+GIVEN le code à 6 chiffres reçu par sms
+WHEN la page de saisie apparait
+THEN je saisie les numéros
 
 #2
-GIVEN
-WHEN
-THEN
+GIVEN délai de 1O mn autorisé 
+WHEN je reçois le code par sms
+THEN afin d'avoir le temps de me connecter ou de refaire une autre tentative 
