@@ -1,10 +1,9 @@
-US1
-
+US1 - Implementation 2-factor dans connection actuelle
 ---
 
 En tant qu'inscrit à leboncoin
 Je veux me connecter
-Afin de faire de faire des emplettes ou vendre mes vieilleries
+Afin de faire de faire des emplettes et vendre mes vieilleries
 
 ---
 
@@ -24,7 +23,7 @@ Then je suis connecté
 ======================
 
 
-US2
+US2 - Gestion 2-factor
 
 ---
 
@@ -58,7 +57,7 @@ Then je veux pouvoir recevoir un code par mail
 ======================
 
 
-US3
+US3 - Sécurisation 2-factor
 
 ---
 
