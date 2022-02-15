@@ -1,0 +1,14 @@
+En tant qu'utilisateur ayant déja éffectué un parcours 2fa.
+Je souhaite recevoir email m'informant de tentatives de connexions.
+Afin d'anticiper des utilisations frauduleuses de mon compte.
+
+===============================
+
+Critères d'acceptances:
+
+#1
+Given un utilisateur ayant déja fait un parcours 2fa
+When quelqu'un tente de se connecter à mon compte sur un navigateur non enregistré
+Then je suis notifié d'une tentative de connexion par email détaillant les informations: Adresse IP publique, type de navigateur, localisation géographique et date/heure
+
+
