@@ -1,0 +1,39 @@
+
+renseigner les codes de connexion dans l’encart réservé 
+
+Identifier l’utilisateur via ses codes de connexion 
+
+Identifier le log in de l'utilisateur via un nouveau navigateur 
+
+informer l’utilisateur de la necessité de renseigner un code de vérification 
+
+Indiquer le numéro de téléphone « cripté » mentionnant les 1er et derniers chiffres 
+
+Cliquer sur « recevoir un code de vérification » 
+
+Générer un code de vérfication 
+
+Envoyer le code de vérification au numéro de téléphone correspondant au profil utilisateur 
+
+S’assurer de la réception du code de vérfication sur le téléphone de l’utilisateur 
+
+Demander à renseigner le code de vérification envoyé si réception avérée 
+
+Renseigner le code de vérification 
+
+authentification automatique du code de vérification dès finalisation du remplissage 
+
+
+Réduire à 5 :
+
+Identifier le log in de l'utilisateur via un nouvel navigateur 
+
+Générer et Envoyer le code de vérification au numéro de téléphone correspondant au profil utilisateur 
+
+Renseigner le code de vérification
+
+authentifier automatiquement le code de vérification dès finalisation du remplissage 
+
+Identifier le nouvel navigateur comme navigateur de confiance pour les prochaines connexions 
+
+

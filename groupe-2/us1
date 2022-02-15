@@ -1,16 +1,25 @@
-En tant que...
-Je veux...
-Afin de...
+En tant qu'utilisateur déjà crée sur la plate-forme 
+
+Je veux recevoir un code de vérification 
+
+Afin de pouvoir me connecter à mon compte personnel via un nouvel navigateur 
+
 
 ===============================
 
 Critères d'acceptances:
+
 #1
-GIVEN
-WHEN
-THEN
+GIVEN l'utilisateur souhaite être informé de la necessité de recourir à un code de vérification 
+WHEN lorsque qu'il tente de se connecter avec ses identifiants de connexion via un nouvel navigateur (qui n'est pas dans la liste des groupes de confiance). 
+THEN par une fenêtre comportant le message suivant " la sécurité de vos informations personnelles. nous verifions que vous êtes bien à l’origine de cette demande".
+
 
 #2
-GIVEN
-WHEN
-THEN
+GIVEN un utilisateur qui se connecte avec ses identifiants de connexion 
+WHEN lorsqu'il clique sur le bouton " recevoir un code de vérfication" 
+then reçoit par sms ledit code 
+
+ 
+ 
+
