@@ -1,0 +1,24 @@
+US1 : authentification étape 1 mail 
+En tant que contributeur déjà inscrit
+Je veux pouvoir indiquer mon mail et mon mot de passe sur un premier écran
+Afin de pouvoir m’identifier et accéder à mon compte
+
+US2 : authentification étape 2 code SMS 
+En tant que contributeur 
+Je veux pouvoir entrer mon numéro de téléphone sur un nouvel écran
+Afin de recevoir un code de vérification par SMS et pouvoir confirmer mon identité
+
+US3 : authentification étape 2 code SMS
+En tant que contributeur
+Je veux recevoir un code unique de vérification à 6 chiffres par SMS sur le numéro de téléphone indiqué à l’étape 2 du parcours d’identification
+Afin de confirmer mon authentification 
+
+US4 : authentification étape 3  code SMS
+En tant que contributeur
+Je veux pouvoir renseigner le code à 6 chiffres reçu par SMS sur un nouvel écran 
+Afin de confirmer mon authentification
+
+US5 : étape 4 simplication connexion
+En tant que contributeur
+je veux pouvoir accéder à un nouvel écran si mon code de vérification de l'étape 3 a été validé 
+Afin de ne plus avoir besoin de recevoir et d’indiquer un nouveau code d’accès par SMS lors de mes prochaines connexions
