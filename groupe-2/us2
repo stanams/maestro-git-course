@@ -5,17 +5,13 @@ Afin de sécuriser ma connexion
 ===============================
 
 Critères d'acceptances:
-#1
-GIVEN user has received a verification code
-WHEN enter the code 
-THEN code is automatically checked to see if it has been sent
 
-#2
+#1
 GIVEN user has received a verification code
 WHEN wrong code is entered
 THEN error message is displayed
 
-#3
+#2
 GIVEN user has received a verification code
 WHEN right code is entered
 THEN code is automatically validated
