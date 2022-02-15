@@ -1,14 +1,18 @@
-En tant que...
-Je veux...
-Afin de...
+En tant que Utilisateur loggué avec login/mdp + two-factor
+Je veux définir un navigateur de confiance
+Afin de gagner du temps sur ma prochaine connexion
 
 ===============================
 
 Critères d'acceptances:
 #1
-GIVEN
-WHEN
-THEN
+GIVEN Utilisateur loggué avec login/mdp + two-factor + navigateur non défini comme confiance
+WHEN Code valide
+THEN Proposition d'enregistrement du navigateur
+
+GIVEN Utilisateur 
+WHEN Proposition d'enregistrement validée
+THEN Enregistrement du navigateur + affichage du message de validation
 
 #2
 GIVEN
