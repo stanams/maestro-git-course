@@ -1,6 +1,6 @@
 En tant qu’utilisateur ayant validé mon 1er facteur d’identification
-Je veux recevoir un code de sécurité par sms sur mon numéro de téléphone (après avoir cliqué sur recevoir un code de vérification) 
-Afin de finaliser mon identification à double facteur
+Je veux cliquer sur recevoir un code de sécurité et recevoir un code de sécurité à 6 chiffres par sms sur mon numéro de téléphone
+Afin d'accéder à l'authentification tierce
 
 ===============================
 
@@ -8,6 +8,9 @@ Critères d'acceptances:
 #1
 
 Etant donné que mon numéro correspond au numéro qui apparaît
-Quand je clique sur recevoir un code de vérification
-Je reçois un sms de LBC : “code 6 chiffres” est votre code de vérification leboncoin
-Et la page et pour finir s’affiche sur le device
+Quand je clique sur recevoir un code de vérification et que je reçois un sms de LBC : “code 6 chiffres” est votre code de vérification leboncoin
+La page "et pour finir" s’affiche sur le device d'origine
+
+Etant donné que mon numéro correspond au numéro qui apparaît
+Quand je clique sur recevoir un code de vérification et que je ne reçois pas de sms
+Le message suivant "Une erreur est survenue, veuillez réessayez plus tard" s'affiche sous le CTA recevoir le code de sécurité au bout de 10 secondes 
