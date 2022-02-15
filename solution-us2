@@ -1,0 +1,29 @@
+US2 (ici j'ai pris le cas où il y a un bouton "Valider" pour envoyer mes 6 chiffres. Dans le cas leboncoin présenté en cours, l'envoie du code reçu par SMS
+se fait automatiquement lorsqu'on a saisi les 6 chiffres)
+
+ETQU qui a demandé avec succès l’envoi d’un code SMS de vérification
+Je veux voir apparaître un input me permettant de valider mon code
+Afin de confirmer mon identité 2 facteurs
+
+------------------------------------------
+ACCEPTANCE TESTS
+
+GIVEN j’ai bien reçu le code SMS
+WHEN je remplis les 6 chiffres mon code SMS
+THEN je peux appuyer sur le bouton « Valider »
+
+GIVEN j’ai bien reçu le code SMS
+WHEN je rempli moins de 6 chiffres mon code SMS
+THEN je ne peux pas appuyer sur le bouton « Valider » qui reste grisé
+
+GIVEN j’ai bien reçu le code SMS
+WHEN je rempli les 6 bons chiffres de mon code SMS et appuye sur le bouton « Valider »
+THEN je parviens à me connecter suis redirigé sur la page permettant de retenir le navigateur ou pas
+
+GIVEN j’ai bien reçu le code SMS
+WHEN je rempli un mauvais code à 6 chiffres
+THEN je vois un message d’erreur m’indiquant que le code est mauvais est que je dois le resaisir
+
+GIVEN j’ai bien reçu le code SMS
+WHEN je rempli un bon code à 6 chiffres qui est en erreur
+THEN je vois un message d’erreur m’indiquant de rééssayer de saisir mon code et un bouton pour me renvoyer un nouveau code
