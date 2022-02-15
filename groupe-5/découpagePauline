@@ -3,20 +3,31 @@ En tant que user déjà enregistré
 Je veux me connecter via un nouveau navigateur 
 Afin d'accéder à mes données
 
-Given Je suis un user déjà inscrit qui se connecte via un nouveau navigateur 
+Given Je suis un user déjà inscrit sur le bon coin qui se connecte via un nouveau navigateur 
 When je clique sur le CTA "me connecter"
 Then je passe à l'étape 2 du parcours d'authentification
 
-Given Je suis un user déjà inscrit qui se me connecte via un navigateur déjà connu
+Given Je suis un user déjà inscrit sur le bon coin qui se me connecte via un navigateur déjà connu
 When  je clique sur le CTA "me connecter"
 Then j'accède directement à mon compte sans étape supplémentaire
 
 --
 
-US1 : authentification étape 1 
-En tant que contributeur déjà inscrit qui se connecte via un nouveau navigateur
-Je veux recevoir un code de vérification
-Afin de pouvoir confirmer mon identité 
+US2 : 
+
+En tant que user qui vient de rentrer sur la page de 2FA,
+je veux accéder à une page avec 1 bouton “Recevoir un code de vérification”
+afin de recevoir mon deuxième facteur d’authentification.
+
+Given Je suis un user déjà inscrit sur le LBC et j'ai renseigné un numéro dans mon compte
+When je clique sur me connecter 
+Then une page avec mon numéro de téléphone s'affiche et le CTA "recevoir un code de vérification"
+
+Given Je suis un user déjà inscrit sur le LBC et je n'ai pas renseigné un numéro dans mon compte,
+When je clique sur me connecter 
+Then une autre page d'authentification par mail s'affiche
+
+--
 
 US2 : authentification étape 2 code SMS 
 En tant que contributeur 
